@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "General Construction & Engineering Services, Inc.",
+    "phone": "+13058333370",
+    "category": "general contractor",
+    "city": "Miami",
+    "state": "FL"
+  },
+  "design": {
+    "preset": {
+      "id": "general-contractor-mountain-bold",
+      "categoryGroup": "general-contractor",
+      "name": "Mountain Bold",
+      "recipeFile": "general-contractor/mountain-bold.astro",
+      "colors": {
+        "primary": "#0F1D30",
+        "primaryDark": "#0b1422",
+        "primaryLight": "#c3c7cb",
+        "secondary": "#1E3A5F",
+        "accent": "#3B82F6",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#0F1D30",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "general-contractor/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Miami's Trusted General Contractor",
+      "heroSubline": "Delivering quality construction and engineering services across South Florida. From concept to completion, we're with you every step.",
+      "aboutTitle": "Building Miami, One Project at a Time",
+      "aboutText": [
+        "General Construction & Engineering Services, Inc. was founded over a decade ago with a simple mission: to provide exceptional construction services with unwavering integrity. We're a local Miami company, deeply rooted in the community and dedicated to building lasting relationships with our clients.",
+        "Our approach is collaborative and client-focused. We believe in clear communication, transparent pricing, and meticulous attention to detail. We work closely with architects, engineers, and subcontractors to ensure every project meets the highest standards of quality and craftsmanship.",
+        "We're proud to be a part of Miami's vibrant landscape, and we're committed to giving back to the community that has supported us. We actively participate in local initiatives and support organizations that make Miami a better place to live and work."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "Deep understanding of Miami-Dade building codes, permitting processes, and environmental considerations."
+        },
+        {
+          "title": "Quality Craftsmanship",
+          "description": "Experienced team of skilled tradespeople dedicated to delivering exceptional workmanship on every project."
+        },
+        {
+          "title": "Transparent Communication",
+          "description": "Open and honest communication throughout the entire construction process, keeping you informed every step of the way."
+        },
+        {
+          "title": "Project Management",
+          "description": "Dedicated project managers to oversee every aspect of your project, ensuring it's completed on time and within budget."
+        }
+      ],
+      "ctaHeadline": "Ready to Build Your Vision?",
+      "ctaSubline": "Contact us today for a free consultation and let's discuss your project."
+    },
+    "services": [
+      {
+        "slug": "residential-construction",
+        "name": "Residential Construction",
+        "shortDescription": "Building and renovating homes tailored to Miami's unique needs.",
+        "description": "From stunning waterfront estates in Boca Raton to historic renovations in West Palm Beach, we handle all aspects of residential construction. We understand the specific challenges of building in South Florida, including hurricane resilience, salt air corrosion, and strict building codes. We specialize in CBS (concrete block stucco) construction, ensuring durability and longevity. Whether you're building a new home, renovating an existing property, or adding an addition, we'll work closely with you to bring your vision to life. Our team manages every detail, from permitting and design to construction and finishing, ensuring a seamless and stress-free experience. We use only the highest quality materials and employ skilled tradespeople to deliver exceptional results that stand the test of time. We also specialize in energy-efficient solutions to help you save money on your utility bills and reduce your environmental impact. We understand the nuances of working in older neighborhoods like Coconut Grove and Coral Gables, respecting the architectural heritage while incorporating modern amenities. Let us help you create the home of your dreams in beautiful South Florida.",
+        "process": [
+          "Step 1: Initial Consultation - Discuss your project goals, budget, and timeline.",
+          "Step 2: Design & Planning - Develop detailed plans and specifications with our team of architects and engineers.",
+          "Step 3: Permitting - Obtain all necessary permits and approvals from local authorities.",
+          "Step 4: Construction - Execute the construction phase with meticulous attention to detail and quality control."
+        ],
+        "benefits": [
+          "Increased property value",
+          "Improved energy efficiency",
+          "Enhanced curb appeal",
+          "Personalized living space"
+        ],
+        "faq": [
+          {
+            "question": "What type of residential projects do you handle?",
+            "answer": "We handle a wide range of residential projects, including new home construction, renovations, additions, and remodeling. We can assist with everything from kitchen and bathroom remodels to complete home overhauls."
+          },
+          {
+            "question": "How long does a typical residential construction project take?",
+            "answer": "The timeline for a residential construction project varies depending on the scope and complexity of the work. We'll provide you with a detailed project schedule during the initial consultation."
+          },
+          {
+            "question": "Do you offer financing options for residential construction projects?",
+            "answer": "We do not offer direct financing, but we can connect you with reputable lenders who specialize in construction loans. We can also work with your existing lender to ensure a smooth financing process."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-construction",
+        "name": "Commercial Construction",
+        "shortDescription": "Building functional and aesthetically pleasing commercial spaces in Miami.",
+        "description": "We provide comprehensive commercial construction services throughout Miami-Dade County, from office buildings in Brickell to retail spaces in Wynwood. We understand the importance of creating functional and aesthetically pleasing spaces that meet the unique needs of your business. Our team has extensive experience in all phases of commercial construction, including site preparation, foundation work, structural steel, and interior build-outs. We work closely with architects and engineers to ensure that your project is completed to the highest standards of quality and safety. We also understand the importance of minimizing disruption to your business during the construction process. We'll work with you to develop a detailed project plan that minimizes downtime and ensures a smooth transition. We are familiar with Miami's specific zoning regulations and permitting requirements, ensuring compliance every step of the way. Whether you're building a new office space, renovating a retail store, or expanding your warehouse, we have the expertise and resources to get the job done right. Our commitment to quality, safety, and customer satisfaction is what sets us apart.",
+        "process": [
+          "Step 1: Project Scoping - Define project requirements and objectives.",
+          "Step 2: Design & Engineering - Develop detailed architectural and engineering plans.",
+          "Step 3: Permitting & Approvals - Secure all necessary permits and approvals from local authorities.",
+          "Step 4: Construction Management - Oversee all aspects of the construction process, ensuring quality and adherence to schedule."
+        ],
+        "benefits": [
+          "Increased operational efficiency",
+          "Enhanced brand image",
+          "Improved employee morale",
+          "Sustainable building practices"
+        ],
+        "faq": [
+          {
+            "question": "What types of commercial projects do you handle?",
+            "answer": "We handle a wide range of commercial projects, including office buildings, retail spaces, restaurants, warehouses, and industrial facilities. We can also assist with tenant improvements and build-outs."
+          },
+          {
+            "question": "Do you have experience with LEED-certified construction?",
+            "answer": "Yes, we have experience with LEED-certified construction and can help you achieve your sustainability goals. We can incorporate energy-efficient design elements and sustainable materials into your project."
+          },
+          {
+            "question": "How do you ensure safety on commercial construction sites?",
+            "answer": "Safety is our top priority. We implement comprehensive safety protocols and training programs to ensure a safe working environment for our employees and subcontractors. We also conduct regular safety inspections to identify and address potential hazards."
+          }
+        ]
+      },
+      {
+        "slug": "remodeling-renovations",
+        "name": "Remodeling & Renovations",
+        "shortDescription": "Updating & improving existing spaces in Miami homes and businesses.",
+        "description": "From kitchen and bathroom remodels to complete home renovations, we transform outdated spaces into modern and functional areas. We understand the unique challenges of remodeling older homes in Miami, including dealing with asbestos, lead paint, and outdated wiring. We have the expertise to handle these issues safely and efficiently. We also specialize in restoring historic properties, preserving their original charm while incorporating modern amenities. Whether you're looking to update your kitchen, renovate your bathroom, or add an addition to your home, we'll work closely with you to create a space that meets your needs and reflects your personal style. For commercial clients, we offer comprehensive renovation services to update existing spaces and improve functionality. From retail store renovations to office space remodels, we can help you create a more inviting and productive environment for your employees and customers. We understand the importance of minimizing disruption to your business during the renovation process. We'll work with you to develop a detailed project plan that minimizes downtime and ensures a smooth transition.",
+        "process": [
+          "Step 1: Design Consultation - Discuss your vision and create a design plan.",
+          "Step 2: Material Selection - Choose from a wide range of high-quality materials.",
+          "Step 3: Demolition & Preparation - Carefully prepare the space for remodeling.",
+          "Step 4: Construction & Finishing - Execute the renovation with precision and attention to detail."
+        ],
+        "benefits": [
+          "Increased home value",
+          "Improved functionality",
+          "Enhanced aesthetics",
+          "Modernized living space"
+        ],
+        "faq": [
+          {
+            "question": "How much does a typical kitchen remodel cost?",
+            "answer": "The cost of a kitchen remodel varies depending on the size of the kitchen, the materials used, and the scope of the work. We'll provide you with a detailed estimate after the initial consultation."
+          },
+          {
+            "question": "Do I need a permit for a bathroom remodel?",
+            "answer": "In most cases, yes, you will need a permit for a bathroom remodel. We can handle the permitting process for you to ensure that your project is compliant with local regulations."
+          },
+          {
+            "question": "How long does a typical bathroom remodel take?",
+            "answer": "A typical bathroom remodel can take anywhere from 2 to 4 weeks, depending on the complexity of the project. We'll provide you with a detailed project schedule before we begin work."
+          }
+        ]
+      },
+      {
+        "slug": "design-build",
+        "name": "Design-Build Services",
+        "shortDescription": "Streamlined project delivery from initial design to final construction.",
+        "description": "Our design-build approach offers a streamlined and efficient way to manage your construction project from start to finish. We combine the expertise of architects, engineers, and construction professionals into a single, integrated team. This collaborative approach ensures seamless communication, reduces the potential for errors, and accelerates the project timeline. We work closely with you from the initial design phase to understand your needs and develop a plan that meets your budget and timeline. Our team handles all aspects of the project, including design, permitting, construction, and finishing. This eliminates the need to coordinate between multiple contractors and streamlines the communication process. We take full responsibility for the project, ensuring that it is completed to your satisfaction. Our design-build approach is ideal for clients who want a hassle-free construction experience. We manage every detail, allowing you to focus on other priorities. We also offer value engineering services to help you save money without sacrificing quality. Our commitment to quality, efficiency, and customer satisfaction is what sets us apart.",
+        "process": [
+          "Step 1: Conceptual Design - Develop initial design concepts and budget estimates.",
+          "Step 2: Detailed Design - Create detailed architectural and engineering plans.",
+          "Step 3: Permitting & Approvals - Secure all necessary permits and approvals.",
+          "Step 4: Construction & Project Management - Manage all aspects of the construction process."
+        ],
+        "benefits": [
+          "Faster project completion",
+          "Reduced costs",
+          "Improved communication",
+          "Single point of contact"
+        ],
+        "faq": [
+          {
+            "question": "What are the advantages of using a design-build approach?",
+            "answer": "The design-build approach offers several advantages, including faster project completion, reduced costs, improved communication, and a single point of contact. It streamlines the construction process and reduces the potential for errors."
+          },
+          {
+            "question": "How does the design-build process differ from traditional construction?",
+            "answer": "In traditional construction, the design and construction phases are handled by separate companies. In design-build, a single team handles both phases, which improves communication and coordination."
+          },
+          {
+            "question": "Is the design-build approach right for my project?",
+            "answer": "The design-build approach is ideal for clients who want a hassle-free construction experience and a streamlined project delivery process. It is particularly well-suited for complex projects that require close coordination between design and construction."
+          }
+        ]
+      },
+      {
+        "slug": "hurricane-protection",
+        "name": "Hurricane Protection",
+        "shortDescription": "Protecting Miami homes and businesses from hurricane damage.",
+        "description": "Living in Miami means preparing for hurricane season. We offer a comprehensive range of hurricane protection services to safeguard your home or business from the devastating effects of high winds and heavy rain. We install impact-resistant windows and doors that meet the stringent requirements of the Florida Building Code. These windows and doors are designed to withstand the impact of flying debris, preventing water intrusion and structural damage. We also install hurricane shutters, including roll-down shutters, accordion shutters, and Bahama shutters. Our experienced team can help you choose the best hurricane protection solutions for your specific needs and budget. We are familiar with the latest building codes and regulations, ensuring that your hurricane protection measures are compliant and effective. We also offer roof reinforcement services to strengthen your roof and prevent it from being damaged by high winds. Protecting your property from hurricane damage is essential for preserving your investment and ensuring your safety. Let us help you prepare for hurricane season with our comprehensive hurricane protection services.",
+        "process": [
+          "Step 1: Property Assessment - Evaluate your property's vulnerability to hurricane damage.",
+          "Step 2: Solution Design - Develop a customized hurricane protection plan.",
+          "Step 3: Installation - Install hurricane-resistant windows, doors, and shutters.",
+          "Step 4: Inspection & Maintenance - Ensure proper functionality and maintain your hurricane protection systems."
+        ],
+        "benefits": [
+          "Protection from hurricane damage",
+          "Increased property value",
+          "Reduced insurance premiums",
+          "Peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "What are the benefits of impact-resistant windows and doors?",
+            "answer": "Impact-resistant windows and doors are designed to withstand the impact of flying debris, preventing water intrusion and structural damage. They also offer increased security and energy efficiency."
+          },
+          {
+            "question": "What types of hurricane shutters do you offer?",
+            "answer": "We offer a variety of hurricane shutters, including roll-down shutters, accordion shutters, and Bahama shutters. Our experienced team can help you choose the best option for your needs."
+          },
+          {
+            "question": "How often should I inspect my hurricane protection systems?",
+            "answer": "It is recommended to inspect your hurricane protection systems at least once a year, and before the start of each hurricane season. We offer inspection and maintenance services to ensure that your systems are functioning properly."
+          }
+        ]
+      },
+      {
+        "slug": "engineering-services",
+        "name": "Engineering Services",
+        "shortDescription": "Providing structural and civil engineering expertise for construction projects.",
+        "description": "We offer a wide range of engineering services to support your construction project, including structural engineering, civil engineering, and geotechnical engineering. Our team of experienced engineers has a deep understanding of the unique challenges of building in South Florida, including hurricane resilience, soil conditions, and environmental regulations. We provide structural designs for buildings, bridges, and other structures, ensuring their safety and stability. We also provide civil engineering services, including site planning, drainage design, and stormwater management. Our geotechnical engineering services include soil testing, foundation design, and slope stability analysis. We work closely with architects, contractors, and developers to ensure that your project is completed to the highest standards of quality and safety. We use the latest technology and software to create accurate and efficient designs. Our commitment to innovation, quality, and customer satisfaction is what sets us apart. Whether you're building a new commercial building, renovating an existing structure, or developing a new residential community, we have the engineering expertise to help you succeed.",
+        "process": [
+          "Step 1: Project Assessment - Define project requirements and objectives.",
+          "Step 2: Engineering Design - Develop detailed engineering plans and specifications.",
+          "Step 3: Analysis & Modeling - Conduct structural and geotechnical analysis.",
+          "Step 4: Construction Support - Provide on-site support and inspections."
+        ],
+        "benefits": [
+          "Safe and reliable structures",
+          "Compliance with building codes",
+          "Optimized designs",
+          "Cost-effective solutions"
+        ],
+        "faq": [
+          {
+            "question": "What types of engineering services do you offer?",
+            "answer": "We offer a wide range of engineering services, including structural engineering, civil engineering, and geotechnical engineering. Our experienced team can assist with all phases of your construction project."
+          },
+          {
+            "question": "How do you ensure the safety and stability of structures?",
+            "answer": "We use the latest technology and software to conduct thorough structural analysis and design. We also adhere to all applicable building codes and regulations."
+          },
+          {
+            "question": "What is geotechnical engineering?",
+            "answer": "Geotechnical engineering involves the study of soil and rock properties to design foundations and earthworks. It is essential for ensuring the stability of structures and preventing soil-related problems."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Fort Lauderdale",
+        "slug": "fort-lauderdale-fl",
+        "state": "FL",
+        "content": "General Construction & Engineering Services, Inc. is proud to offer comprehensive general contracting services to the residents and businesses of Fort Lauderdale, Florida. Known for its extensive canal system and beautiful beaches, Fort Lauderdale presents unique construction and renovation challenges. We specialize in addressing the specific needs of waterfront properties, including seawall repairs, dock construction, and hurricane-resistant upgrades. Our expertise extends to the diverse architectural styles found throughout the city, from the mid-century modern homes of the 1960s and 70s to contemporary designs. \n\nWe understand the importance of working with a contractor who is familiar with the local building codes and regulations in Fort Lauderdale. Our team has a proven track record of successfully completing projects of all sizes, from small renovations to large-scale construction. We are committed to providing our clients with exceptional service, quality workmanship, and on-time, on-budget project completion. We take into account the year-round heat and humidity when designing for energy efficiency and durability.",
+        "localContext": "Fort Lauderdale is a vibrant city known for its extensive canal system, beautiful beaches, and a mix of mid-century modern and contemporary waterfront homes.",
+        "nearbyAreas": [
+          "Pompano Beach",
+          "Hollywood",
+          "Wilton Manors"
+        ]
+      },
+      {
+        "city": "Coral Springs",
+        "slug": "coral-springs-fl",
+        "state": "FL",
+        "content": "General Construction & Engineering Services, Inc. provides top-quality general contracting services to homeowners and businesses in Coral Springs, Florida. As a planned community developed primarily in the 1980s and 90s, Coral Springs features a distinct architectural style, and many homes require updates to meet modern standards. We specialize in kitchen and bathroom renovations, room additions, and whole-house remodeling projects that enhance the functionality and aesthetics of your home. We also offer commercial construction services, including office build-outs and retail space renovations.\n\nWe are dedicated to providing exceptional customer service and ensuring that every project is completed to the highest standards. Our team works closely with clients to understand their specific needs and goals, and we provide transparent communication throughout the entire construction process. We also understand the impact of the year-round heat and humidity and design with weather resistance in mind.",
+        "localContext": "Coral Springs is a family-friendly planned community known for its well-maintained neighborhoods and focus on quality of life, with a predominant architectural style from the 1980s and 90s.",
+        "nearbyAreas": [
+          "Parkland",
+          "Coconut Creek",
+          "Margate"
+        ]
+      },
+      {
+        "city": "Pembroke Pines",
+        "slug": "pembroke-pines-fl",
+        "state": "FL",
+        "content": "General Construction & Engineering Services, Inc. is committed to providing exceptional general contracting services to the residents and businesses of Pembroke Pines, Florida. Known for its numerous planned developments built primarily in the 1990s, Pembroke Pines offers a diverse range of housing options. We specialize in addressing the unique needs of these communities, including hurricane-resistant upgrades, kitchen and bathroom renovations, and room additions. We also offer commercial construction services, including office build-outs and retail space renovations.\n\nOur team understands the importance of working with a contractor who is familiar with the local building codes and regulations in Pembroke Pines. We are committed to providing our clients with exceptional service, quality workmanship, and on-time, on-budget project completion. We take into account the year-round heat and humidity when designing for energy efficiency and durability.",
+        "localContext": "Pembroke Pines is a large suburban city known for its planned developments and family-friendly atmosphere.",
+        "nearbyAreas": [
+          "Miramar",
+          "Weston",
+          "Cooper City"
+        ]
+      },
+      {
+        "city": "Boca Raton",
+        "slug": "boca-raton-fl",
+        "state": "FL",
+        "content": "General Construction & Engineering Services, Inc. is proud to offer premium general contracting services to the discerning residents of Boca Raton, Florida. Renowned for its luxury waterfront estates and upscale communities, Boca Raton demands the highest standards of quality and craftsmanship. We specialize in custom home construction, high-end renovations, and the creation of stunning outdoor living spaces. Our expertise extends to all aspects of construction, from architectural design to interior finishing.\n\nWe understand the importance of attention to detail and meticulous project management. Our team works closely with clients to bring their vision to life, ensuring that every detail is executed to perfection. We also understand the impact of the year-round heat and humidity and design with weather resistance in mind. We are dedicated to exceeding expectations and delivering exceptional results.",
+        "localContext": "Boca Raton is an affluent city known for its luxury waterfront estates, upscale shopping, and beautiful beaches.",
+        "nearbyAreas": [
+          "Delray Beach",
+          "Deerfield Beach",
+          "Highland Beach"
+        ]
+      },
+      {
+        "city": "West Palm Beach",
+        "slug": "west-palm-beach-fl",
+        "state": "FL",
+        "content": "General Construction & Engineering Services, Inc. is dedicated to providing high-quality general contracting services to the residents and businesses of West Palm Beach, Florida. Rich in history and architecture, West Palm Beach features a diverse range of properties, from charming 1920s-50s historic homes to modern high-rise condominiums. We specialize in historic renovations, preserving the character and charm of older homes while incorporating modern amenities. We also offer new construction services, commercial build-outs, and remodeling services.\n\nWe understand the importance of working with a contractor who is familiar with the unique challenges of working on historic properties. Our team has the expertise and experience to navigate the local building codes and regulations, ensuring that your project is completed to the highest standards. We take into account the year-round heat and humidity when designing for energy efficiency and durability.",
+        "localContext": "West Palm Beach is a vibrant city with a rich history, featuring a mix of 1920s-50s historic homes and modern developments.",
+        "nearbyAreas": [
+          "Palm Beach",
+          "Lake Worth",
+          "Riviera Beach"
+        ]
+      },
+      {
+        "city": "Miami Beach",
+        "slug": "miami-beach-fl",
+        "state": "FL",
+        "content": "General Construction & Engineering Services, Inc. is proud to offer comprehensive general contracting services to the residents and businesses of Miami Beach, Florida. Known for its Art Deco architecture and vibrant cultural scene, Miami Beach presents unique construction and renovation opportunities. We specialize in preserving and restoring historic buildings, as well as creating modern, luxurious spaces. Our expertise extends to waterfront properties, including seawall repairs, dock construction, and hurricane-resistant upgrades.\n\nWe understand the importance of working with a contractor who is familiar with the local building codes and regulations in Miami Beach. Our team has a proven track record of successfully completing projects of all sizes, from small renovations to large-scale construction. We are committed to providing our clients with exceptional service, quality workmanship, and on-time, on-budget project completion.",
+        "localContext": "Miami Beach is a world-renowned city known for its Art Deco architecture, beautiful beaches, and vibrant nightlife.",
+        "nearbyAreas": [
+          "Miami",
+          "Surfside",
+          "Bal Harbour"
+        ]
+      },
+      {
+        "city": "Aventura",
+        "slug": "aventura-fl",
+        "state": "FL",
+        "content": "General Construction & Engineering Services, Inc. provides top-quality general contracting services to homeowners and businesses in Aventura, Florida. Known for its luxury high-rise condominiums and upscale shopping destinations, Aventura demands a high level of expertise and attention to detail. We specialize in condominium renovations, custom home improvements, and commercial build-outs. Our team is experienced in working within the constraints of condominium associations and adhering to strict building codes.\n\nWe are dedicated to providing exceptional customer service and ensuring that every project is completed to the highest standards. Our team works closely with clients to understand their specific needs and goals, and we provide transparent communication throughout the entire construction process. We understand the unique challenges of working in high-rise buildings and are committed to minimizing disruption to residents.",
+        "localContext": "Aventura is a city known for its luxury high-rise condominiums, upscale shopping, and beautiful waterfront views.",
+        "nearbyAreas": [
+          "Sunny Isles Beach",
+          "Hallandale Beach",
+          "North Miami Beach"
+        ]
+      },
+      {
+        "city": "Plantation",
+        "slug": "plantation-fl",
+        "state": "FL",
+        "content": "General Construction & Engineering Services, Inc. is committed to providing exceptional general contracting services to the residents and businesses of Plantation, Florida. Known for its lush landscaping and family-friendly atmosphere, Plantation offers a variety of housing styles. We specialize in addressing the unique needs of homeowners, including kitchen and bathroom renovations, room additions, and whole-house remodeling projects. We also offer commercial construction services, including office build-outs and retail space renovations.\n\nOur team understands the importance of working with a contractor who is familiar with the local building codes and regulations in Plantation. We are committed to providing our clients with exceptional service, quality workmanship, and on-time, on-budget project completion. We take into account the year-round heat and humidity when designing for energy efficiency and durability.",
+        "localContext": "Plantation is a city known for its lush landscaping, family-friendly atmosphere, and well-maintained neighborhoods.",
+        "nearbyAreas": [
+          "Davie",
+          "Sunrise",
+          "Lauderhill"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria G.",
+        "rating": 5,
+        "service": "Kitchen Remodel",
+        "text": "General Construction & Engineering Services transformed my outdated kitchen into a modern masterpiece! The team was professional, courteous, and always kept me informed throughout the entire process. The quality of the workmanship is outstanding, and I couldn't be happier with the results. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David S.",
+        "rating": 4,
+        "service": "Hurricane Shutters Installation",
+        "text": "We hired General Construction & Engineering Services to install roll-down hurricane shutters on our home. The installation was quick and efficient, and the shutters provide excellent protection from storms. We had a minor issue with one of the shutters, but they promptly came out and fixed it. Overall, a great experience.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Commercial Build-Out",
+        "text": "General Construction & Engineering Services did an amazing job with the build-out of our new retail space in Wynwood. They were very responsive to our needs and worked closely with us to create a space that perfectly reflects our brand. The project was completed on time and within budget. We highly recommend them!",
+        "date": "2024-09-01"
+      },
+      {
+        "name": "Robert K.",
+        "rating": 5,
+        "service": "Residential Construction",
+        "text": "From initial design to final touches, General Construction & Engineering Services made building our dream home a reality. Their attention to detail and commitment to quality truly sets them apart. Living in Miami, hurricane readiness was a concern, and they delivered a home that is both beautiful and incredibly strong. The team was communicative, professional, and a pleasure to work with.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Susan M.",
+        "rating": 4,
+        "service": "Bathroom Renovation",
+        "text": "We hired General Construction & Engineering Services to renovate our master bathroom. They did a great job updating the space with modern fixtures and finishes. There were some minor delays due to material shortages, but they communicated proactively and kept us informed throughout the process. We're very happy with the final result.",
+        "date": "2024-12-05"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Engineering Services",
+        "text": "We engaged General Construction & Engineering Services for structural engineering work on a commercial project. Their expertise and attention to detail were invaluable. They provided innovative solutions to complex challenges and ensured that our project was structurally sound and compliant with all applicable codes. Highly recommend their engineering services.",
+        "date": "2024-10-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Miami General Contractor | GCES Inc",
+        "description": "Trusted Miami general contractor providing residential & commercial construction, renovations, & hurricane protection services. Call +13058333370"
+      },
+      "about": {
+        "title": "About General Construction & Engineering Services",
+        "description": "Learn about General Construction & Engineering Services Inc, a leading general contractor in Miami, FL. Our mission, values, and community commitment."
+      },
+      "services": {
+        "title": "Construction & Engineering Services in Miami",
+        "description": "Comprehensive construction services in Miami: residential, commercial, remodeling, hurricane protection, & engineering. Contact us today!"
+      },
+      "contact": {
+        "title": "Contact General Construction & Engineering Services",
+        "description": "Contact General Construction & Engineering Services Inc in Miami, FL for your construction needs. Get a free consultation. Call +13058333370"
+      },
+      "reviews": {
+        "title": "Customer Reviews | GCES Inc - Miami Contractor",
+        "description": "Read reviews from satisfied customers of General Construction & Engineering Services Inc. in Miami, FL. See why we're a trusted local contractor."
+      },
+      "service-areas": {
+        "title": "Service Areas | GCES Inc - South Florida",
+        "description": "General Construction & Engineering Services Inc provides construction services in Miami, Fort Lauderdale, Coral Springs, and more. Check our service area."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "residential-construction": "/images/service-residential-construction.webp",
+      "commercial-construction": "/images/service-commercial-construction.webp",
+      "remodeling-renovations": "/images/service-remodeling-renovations.webp",
+      "design-build": "/images/service-design-build.webp",
+      "hurricane-protection": "/images/service-hurricane-protection.webp",
+      "engineering-services": "/images/service-engineering-services.webp"
+    },
+    "servicesResponsive": {
+      "residential-construction": {
+        "src": "/images/service-residential-construction.webp",
+        "srcset": "/images/service-residential-construction-400w.webp 400w, /images/service-residential-construction-800w.webp 800w, /images/service-residential-construction-1200w.webp 1200w, /images/service-residential-construction.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-construction": {
+        "src": "/images/service-commercial-construction.webp",
+        "srcset": "/images/service-commercial-construction-400w.webp 400w, /images/service-commercial-construction-800w.webp 800w, /images/service-commercial-construction-1200w.webp 1200w, /images/service-commercial-construction.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "remodeling-renovations": {
+        "src": "/images/service-remodeling-renovations.webp",
+        "srcset": "/images/service-remodeling-renovations-400w.webp 400w, /images/service-remodeling-renovations-800w.webp 800w, /images/service-remodeling-renovations-1200w.webp 1200w, /images/service-remodeling-renovations.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "design-build": {
+        "src": "/images/service-design-build.webp",
+        "srcset": "/images/service-design-build-400w.webp 400w, /images/service-design-build-800w.webp 800w, /images/service-design-build-1200w.webp 1200w, /images/service-design-build.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "hurricane-protection": {
+        "src": "/images/service-hurricane-protection.webp",
+        "srcset": "/images/service-hurricane-protection-400w.webp 400w, /images/service-hurricane-protection-800w.webp 800w, /images/service-hurricane-protection-1200w.webp 1200w, /images/service-hurricane-protection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "engineering-services": {
+        "src": "/images/service-engineering-services.webp",
+        "srcset": "/images/service-engineering-services-400w.webp 400w, /images/service-engineering-services-800w.webp 800w, /images/service-engineering-services-1200w.webp 1200w, /images/service-engineering-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
